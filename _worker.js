@@ -1,6 +1,9 @@
-
+// <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2024-10-21 14:06:14 UTC<!--GAMFC-END-->.
+// @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
+// How to generate your own UUID:
+// [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '90cd4a77-141a-43c9-991b-08263cfe9c10';
 
 let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org'
@@ -1266,8 +1269,6 @@ async function proxyURL(proxyURL, url) {
 function checkSUB(host) {
 	if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 		addresses = [
-			'Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz#加入我的频道t.me/CMLiussss解锁更多优选节点',
-			'127.0.0.1:1234#CFnat',
 			'visa.cn:443',
 			'singapore.com:8443',
 			'japan.com:2053',
@@ -1280,8 +1281,23 @@ function checkSUB(host) {
 			'www.wto.org:8443',
 			'fbi.gov:2087',
 			'icook.hk',
-			//'104.17.0.0#IPv4',
-			'[2606:4700::]#IPv6'
+			'de-3.topeinstein.com:443',//德国
+			'de-2.topeinstein.com:443',//德国
+			'iplc-hk-beta1.trojanwheel.com:5001',//香港-IPLC-HK-BETA1-流量倍率:1.0
+			'iplc-hk-beta2.trojanwheel.com:5002',
+			'iplc-hk-beta3.trojanwheel.com:5003',
+			'iplc-hk-beta4.trojanwheel.com:5004',
+			'iplc-hk-beta5.trojanwheel.com:5005',
+			'ee-1.kamediorg.com:443',//爱沙尼亚
+			'au-1.australiastudio.com:443',//澳大利亚-AU-1-流量倍率:0.5
+			'au-2.australiastudio.com:443',//澳大利亚-AU-2-流量倍率:0.5
+			'au-3.australiastudio.com:443',//澳大利亚-AU-3-流量倍率:0.5
+			'au-4.australiastudio.com:443',//澳大利亚-AU-4-流量倍率:0.5
+			'us-1.regentgrandvalley.com:443',//美国-US-1-流量倍率:1.5
+			'us-2.regentgrandvalley.com:443',//美国-US-2-流量倍率:1.5
+			'us-3.regentgrandvalley.com:443',//美国-US-3-流量倍率:1.5
+			'us-4.regentgrandvalley.com:443',//美国-US-4-流量倍率:1.5
+
 		];
 		if (host.includes(".workers.dev")) addressesnotls = [
 			'usa.visa.com:2095',
