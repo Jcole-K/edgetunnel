@@ -1280,23 +1280,7 @@ function checkSUB(host) {
 			'time.is',
 			'www.wto.org:8443',
 			'fbi.gov:2087',
-			'icook.hk',
-			'de-3.topeinstein.com:443',//德国
-			'de-2.topeinstein.com:443',//德国
-			'iplc-hk-beta1.trojanwheel.com:5001',//香港-IPLC-HK-BETA1-流量倍率:1.0
-			'iplc-hk-beta2.trojanwheel.com:5002',
-			'iplc-hk-beta3.trojanwheel.com:5003',
-			'iplc-hk-beta4.trojanwheel.com:5004',
-			'iplc-hk-beta5.trojanwheel.com:5005',
-			'ee-1.kamediorg.com:443',//爱沙尼亚
-			'au-1.australiastudio.com:443',//澳大利亚-AU-1-流量倍率:0.5
-			'au-2.australiastudio.com:443',//澳大利亚-AU-2-流量倍率:0.5
-			'au-3.australiastudio.com:443',//澳大利亚-AU-3-流量倍率:0.5
-			'au-4.australiastudio.com:443',//澳大利亚-AU-4-流量倍率:0.5
-			'us-1.regentgrandvalley.com:443',//美国-US-1-流量倍率:1.5
-			'us-2.regentgrandvalley.com:443',//美国-US-2-流量倍率:1.5
-			'us-3.regentgrandvalley.com:443',//美国-US-3-流量倍率:1.5
-			'us-4.regentgrandvalley.com:443',//美国-US-4-流量倍率:1.5
+			'icook.hk'
 
 		];
 		if (host.includes(".workers.dev")) addressesnotls = [
